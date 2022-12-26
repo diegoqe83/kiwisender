@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,400;1,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/*---------------- HEADER ---------------------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f6f6;
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+}
+header img {
+  width: 150px;
+}
+.menu-nav {
+  font-size: 1.3rem;
+  padding: 25px;
+  display: flex;
+  text-align: center;
+}
+.menu-nav ul {
+  list-style-type: none;
+  display: flex;
+}
+.menu-nav ul li {
+  margin: 0px 10px;
+}
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #0fbf8d;
+  font-weight: bolder;
+}
+
+/*---------------- FOOTER ---------------------- */
+footer {
+  font-size: 1.3rem;
+  background-color: #f5f6f6;
+  padding: 30px;
+  margin-top: 20;
+  border-top: 1px solid #423249;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  margin: 0px 10px;
+  text-decoration: none;
+  color: #0fbf8d;
+  font-weight: bolder;
+}
+
+footer img {
+  width: 60px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+/*---------------- INDEX ---------------------- */
+main section {
+  text-align: center;
+}
+
+main section h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 30px;
+  margin: 40px 0px;
+}
+
+main section h2 {
+  font-size: 1.6rem;
+  padding: 20px;
+  margin: 30px 0px;
+  background-color: #0fbf8d;
+  color: white;
+}
+
+main section iframe {
+  width: 560px;
+  height: 315px;
+}
+main section p {
+  font-size: 1.3rem;
+  padding: 20px;
+  margin: 30px 0px;
+}
+
+.contenedor-pasos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.paso-seguir img {
+  width: 90px;
+  padding: 20px;
+  margin: 30px 0px;
+  background-color: #0fbf8d;
+}
+
+.paso-seguir p {
+  font-weight: bold;
+  padding: 20px;
+  margin: 30px 0px;
+}
+
+/*---------------- CASOS DE USO ---------------------- */
+.casos-uso {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1 fr 1fr;
+  gap: 50px;
+  justify-items: center;
+}
+
+.casos-uso p {
+  padding: 20px;
+}
+
+/*---------------- TESTIMONIOS ---------------------- */
+.testimonio-texto {
+  margin: 0px 200px;
+  padding: 5px;
+}
+.testimonio-nombre {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #0fbf8d;
+  margin: 5px 0px 10px 0px;
+  padding: 10px;
+}
+/*---------------- PRECIOS ---------------------- */
+.tarjeta-precio {
+  display: inline-block;
+  padding: 30px;
+  margin: 10px;
+  border: 1px solid #0fbf8d;
+}
+.tarjeta-precio p {
+  background-color: #0fbf8d;
+  color: white;
+}
+.tarjeta-precio ul li {
+  padding: 5px;
+}
+/*---------------- CONTACTO ---------------------- */
+main section form {
+  padding: 10px;
+  margin: 30px;
+  display: inline-block;
+  border: 1px solid #0fbf8d;
+}
+
+main section form div {
+  padding: 7px;
+  margin: 7px;
+}
+
+main section form a button {
+  padding: 7px;
+  margin: 7px;
+  background-color: #0fbf8d;
+  color: white;
+  border: none;
+}
+
+/*---------------- MEDIA QUERIES ---------------------- */
+
+@media only screen and (max-width: 768px) {
+  /*Header*/
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-nav {
+    font-size: 1.1rem;
+  }
+  /*Casos de uso*/
+  .casos-uso {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .casos-uso p {
+    margin: 10px;
+    padding: 10px;
+  }
+  /*Testimonios*/
+  .testimonio-texto {
+    margin: 10px 100px 0px 100px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /*Index*/
+  main section iframe {
+    width: 444px;
+    height: 250px;
+  }
+
+  .contenedor-pasos {
+    flex-direction: column;
+  }
+}
