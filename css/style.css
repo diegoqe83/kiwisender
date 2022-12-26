@@ -15,9 +15,19 @@ header {
   top: 0px;
   padding: 10px;
 }
-header img {
+.header-logo {
   width: 150px;
+  animation: animation-logo 1s;
 }
+@keyframes animation-logo {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .menu-nav {
   font-size: 1.3rem;
   padding: 25px;
@@ -64,6 +74,11 @@ footer img {
   position: fixed;
   bottom: 50px;
   right: 50px;
+  transition: 0.2s ease-in;
+}
+
+footer img:hover {
+  transform: scale(1.2);
 }
 /*---------------- INDEX ---------------------- */
 main section {
