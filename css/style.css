@@ -45,6 +45,11 @@ header {
   text-decoration: none;
   color: #0fbf8d;
   font-weight: bolder;
+  transition: 0.2s ease;
+}
+
+.menu-nav ul li a:hover {
+  color: black;
 }
 
 /*---------------- FOOTER ---------------------- */
@@ -62,14 +67,19 @@ footer ul {
   display: flex;
   justify-content: center;
 }
-footer ul li {
+footer ul li a {
   margin: 0px 10px;
   text-decoration: none;
   color: #0fbf8d;
   font-weight: bolder;
+  transition: 0.2s ease;
 }
 
-footer img {
+footer ul li a:hover {
+  color: black;
+}
+
+footer a img {
   width: 60px;
   position: fixed;
   bottom: 50px;
@@ -77,7 +87,7 @@ footer img {
   transition: 0.2s ease-in;
 }
 
-footer img:hover {
+footer a img:hover {
   transform: scale(1.2);
 }
 /*---------------- INDEX ---------------------- */
