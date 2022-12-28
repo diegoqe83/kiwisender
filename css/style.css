@@ -15,7 +15,7 @@ header {
   top: 0px;
   padding: 10px;
 }
-.header-logo {
+.navbar-brand img {
   width: 150px;
   animation: animation-logo 1s;
 }
@@ -27,34 +27,27 @@ header {
     transform: scale(1);
   }
 }
+.navbar {
+  width: 100%;
+}
 
-.menu-nav {
-  font-size: 1.3rem;
-  padding: 25px;
-  display: flex;
-  text-align: center;
+.navbar-collapse {
+  flex: initial;
 }
-.menu-nav ul {
-  list-style-type: none;
-  display: flex;
-}
-.menu-nav ul li {
-  margin: 0px 10px;
-}
-.menu-nav ul li a {
-  text-decoration: none;
+
+.nav-link {
   color: #0fbf8d;
   font-weight: bolder;
   transition: 0.2s ease;
 }
 
-.menu-nav ul li a:hover {
+.nav-link:hover {
   color: black;
 }
 
 /*---------------- FOOTER ---------------------- */
 footer {
-  font-size: 1.3rem;
+  font-size: 2rem;
   background-color: #f5f6f6;
   padding: 30px;
   margin-top: 20;
@@ -126,7 +119,7 @@ main section p {
 }
 
 .paso-seguir img {
-  width: 90px;
+  width: 140px;
   padding: 20px;
   margin: 30px 0px;
   background-color: #0fbf8d;
