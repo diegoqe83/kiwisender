@@ -21,10 +21,12 @@ header {
 .navbar {
   width: 100%;
 }
-.navbar div .navbar-brand img {
+
+.navbar-brand img {
   width: 150px;
   animation: animation-logo 1s;
 }
+
 @keyframes animation-logo {
   0% {
     transform: scale(0);
@@ -33,16 +35,17 @@ header {
     transform: scale(1);
   }
 }
-
 .navbar-collapse {
   flex: initial;
 }
-.navbar-collapse div .nav-link {
+
+.nav-link {
   color: #0fbf8d;
   font-weight: bolder;
   transition: 0.2s ease;
 }
-.navbar-collapse div .nav-link:hover {
+
+.nav-link:hover {
   color: black;
 }
 
@@ -55,11 +58,13 @@ footer {
   border-top: 1px solid #423249;
   text-align: center;
 }
+
 footer ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
+
 footer ul li a {
   margin: 0px 10px;
   text-decoration: none;
@@ -67,9 +72,11 @@ footer ul li a {
   font-weight: bolder;
   transition: 0.2s ease;
 }
+
 footer ul li a:hover {
   color: black;
 }
+
 footer a img {
   width: 60px;
   position: fixed;
@@ -77,6 +84,7 @@ footer a img {
   right: 50px;
   transition: 0.2s ease-in;
 }
+
 footer a img:hover {
   transform: scale(1.2);
 }
@@ -85,12 +93,14 @@ footer a img:hover {
 main section {
   text-align: center;
 }
+
 main section h1 {
   font-weight: bold;
   font-size: 2rem;
   padding: 30px;
   margin: 40px 0px;
 }
+
 main section h2 {
   font-size: 1.6rem;
   padding: 20px;
@@ -98,26 +108,31 @@ main section h2 {
   background-color: #0fbf8d;
   color: white;
 }
+
+main section iframe {
+  width: 560px;
+  height: 315px;
+}
+
 main section p {
   font-size: 1.3rem;
   padding: 20px;
   margin: 30px 0px;
 }
-main section iframe {
-  width: 560px;
-  height: 315px;
-}
-main section .contenedor-pasos {
+
+.contenedor-pasos {
   display: flex;
   justify-content: space-evenly;
 }
-main section .contenedor-pasos .paso-seguir img {
+
+.paso-seguir img {
   width: 140px;
   padding: 20px;
   margin: 30px 0px;
   background-color: #0fbf8d;
 }
-main section .contenedor-pasos .paso-seguir p {
+
+.paso-seguir p {
   font-weight: bold;
   padding: 20px;
   margin: 30px 0px;
@@ -132,6 +147,7 @@ main section .contenedor-pasos .paso-seguir p {
   gap: 50px;
   justify-items: center;
 }
+
 .casos-uso p {
   padding: 20px;
 }
@@ -157,10 +173,12 @@ main section .contenedor-pasos .paso-seguir p {
   margin: 10px;
   border: 1px solid #0fbf8d;
 }
+
 .tarjeta-precio p {
   background-color: #0fbf8d;
   color: white;
 }
+
 .tarjeta-precio ul li {
   padding: 5px;
 }
@@ -172,11 +190,13 @@ main section form {
   display: inline-block;
   border: 1px solid #0fbf8d;
 }
+
 main section form div {
   padding: 7px;
   margin: 7px;
 }
-main section form div a button {
+
+main section form a button {
   padding: 7px;
   margin: 7px;
   background-color: #0fbf8d;

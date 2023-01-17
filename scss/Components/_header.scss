@@ -1,0 +1,42 @@
+/*---------------- HEADER ---------------------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f6f6;
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+}
+.navbar {
+  width: 100%;
+  div {
+    .navbar-brand {
+      img {
+        width: 150px;
+        animation: animation-logo 1s;
+      }
+      @keyframes animation-logo {
+        0% {
+          transform: scale(0);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    }
+  }
+}
+
+.navbar-collapse {
+  flex: initial;
+  div {
+    .nav-link {
+      color: #0fbf8d;
+      font-weight: bolder;
+      transition: 0.2s ease;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/*---------------- CASOS DE USO ---------------------- */
+.casos-uso {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1 fr 1fr;
+  gap: 50px;
+  justify-items: center;
+  p {
+    padding: 20px;
+  }
+}

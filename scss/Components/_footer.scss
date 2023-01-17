@@ -1,0 +1,38 @@
+/*---------------- FOOTER ---------------------- */
+footer {
+  font-size: 2rem;
+  background-color: #f5f6f6;
+  padding: 30px;
+  margin-top: 20;
+  border-top: 1px solid #423249;
+  text-align: center;
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    li {
+      a {
+        margin: 0px 10px;
+        text-decoration: none;
+        color: #0fbf8d;
+        font-weight: bolder;
+        transition: 0.2s ease;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  a {
+    img {
+      width: 60px;
+      position: fixed;
+      bottom: 50px;
+      right: 50px;
+      transition: 0.2s ease-in;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+/*---------------- PRECIOS ---------------------- */
+.tarjeta-precio {
+  display: inline-block;
+  padding: 30px;
+  margin: 10px;
+  border: 1px solid #0fbf8d;
+  p {
+    background-color: #0fbf8d;
+    color: white;
+  }
+  ul {
+    li {
+      padding: 5px;
+    }
+  }
+}
