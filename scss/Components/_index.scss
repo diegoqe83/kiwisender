@@ -9,11 +9,11 @@ main {
       margin: 40px 0px;
     }
     h2 {
-      font-size: 1.6rem;
-      padding: 20px;
-      margin: 30px 0px;
-      background-color: #0fbf8d;
-      color: white;
+      font-size: map-get($header2, tamano);
+      padding: map-get($header2, pad);
+      margin: map-get($header2, margen);
+      background-color: map-get($header2, bg-color);
+      color: map-get($header2, color-text);
     }
     p {
       font-size: 1.3rem;
@@ -32,7 +32,7 @@ main {
           width: 140px;
           padding: 20px;
           margin: 30px 0px;
-          background-color: #0fbf8d;
+          background-color: $color-principal;
         }
         p {
           font-weight: bold;

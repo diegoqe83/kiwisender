@@ -1,7 +1,7 @@
 /*---------------- FOOTER ---------------------- */
 footer {
   font-size: 2rem;
-  background-color: #f5f6f6;
+  background-color: $color-header-footer;
   padding: 30px;
   margin-top: 20;
   border-top: 1px solid #423249;
@@ -14,11 +14,11 @@ footer {
       a {
         margin: 0px 10px;
         text-decoration: none;
-        color: #0fbf8d;
+        color: $color-principal;
         font-weight: bolder;
         transition: 0.2s ease;
         &:hover {
-          color: black;
+          color: $color-secundario;
         }
       }
     }
