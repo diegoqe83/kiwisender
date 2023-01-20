@@ -4,9 +4,6 @@
   padding: 5px;
 }
 .testimonio-nombre {
-  font-size: 1rem;
-  font-weight: bolder;
   color: $color-principal;
-  margin: 5px 0px 10px 0px;
-  padding: 10px;
+  @include prop-tex(bolder, 1rem, 10px, 5px 0px 10px 0px);
 }

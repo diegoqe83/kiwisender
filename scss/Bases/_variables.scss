@@ -9,3 +9,15 @@ $header2: (
   bg-color: $color-principal,
   color-text: white,
 );
+
+@mixin flex($disp, $just) {
+  display: $disp;
+  justify-content: $just;
+}
+
+@mixin prop-tex($peso, $tamano, $pad, $mar) {
+  font-weight: $peso;
+  font-size: $tamano;
+  padding: $pad;
+  margin: $mar;
+}

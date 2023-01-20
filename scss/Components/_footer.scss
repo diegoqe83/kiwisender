@@ -8,8 +8,7 @@ footer {
   text-align: center;
   ul {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
+    @include flex(flex, center);
     li {
       a {
         margin: 0px 10px;

@@ -3,10 +3,7 @@ main {
   section {
     text-align: center;
     h1 {
-      font-weight: bold;
-      font-size: 2rem;
-      padding: 30px;
-      margin: 40px 0px;
+      @include prop-tex(bold, 2rem, 30px, 40px 0px);
     }
     h2 {
       font-size: map-get($header2, tamano);
@@ -25,8 +22,7 @@ main {
       height: 315px;
     }
     .contenedor-pasos {
-      display: flex;
-      justify-content: space-evenly;
+      @include flex(flex, space-evenly);
       .paso-seguir {
         img {
           width: 140px;

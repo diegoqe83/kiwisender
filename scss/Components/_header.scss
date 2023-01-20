@@ -1,7 +1,6 @@
 /*---------------- HEADER ---------------------- */
 header {
-  display: flex;
-  justify-content: space-between;
+  @include flex(flex, space-between);
   background-color: $color-header-footer;
   position: sticky;
   top: 0px;
